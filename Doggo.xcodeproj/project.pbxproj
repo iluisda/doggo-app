@@ -7,18 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		138793439F7BB90420BC8D75 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A23077B49CF97199AF085CC /* awsconfiguration.json */; };
+		1A0F41CC2A105D1500C3DF70 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F41C92A105D1500C3DF70 /* Inter-Regular.ttf */; };
+		1A0F41CD2A105D1500C3DF70 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F41CA2A105D1500C3DF70 /* Poppins-Bold.ttf */; };
+		1A0F41CE2A105D1500C3DF70 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F41CB2A105D1500C3DF70 /* Inter-SemiBold.ttf */; };
+		1A0F41D12A10623700C3DF70 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F41D02A10623700C3DF70 /* CustomFont.swift */; };
+		1A0F41D32A106D6E00C3DF70 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F41D22A106D6E00C3DF70 /* SignInView.swift */; };
+		1A0F41D52A10793500C3DF70 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F41D42A10793400C3DF70 /* CustomTextField.swift */; };
+		1A0F41DB2A114E1700C3DF70 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F41DA2A114E1600C3DF70 /* Extensions.swift */; };
 		1A11E1782A0F7FD400871E9F /* DoggoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11E1772A0F7FD400871E9F /* DoggoApp.swift */; };
 		1A11E17A2A0F7FD400871E9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11E1792A0F7FD400871E9F /* ContentView.swift */; };
 		1A11E17C2A0F7FD700871E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E17B2A0F7FD700871E9F /* Assets.xcassets */; };
 		1A11E17F2A0F7FD700871E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E17E2A0F7FD700871E9F /* Preview Assets.xcassets */; };
+		1A11E1942A0F859600871E9F /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E18D2A0F859600871E9F /* house.riv */; };
+		1A11E1952A0F859600871E9F /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E18E2A0F859600871E9F /* confetti.riv */; };
+		1A11E1962A0F859600871E9F /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E18F2A0F859600871E9F /* check.riv */; };
+		1A11E1972A0F859600871E9F /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E1902A0F859600871E9F /* menu_button.riv */; };
+		1A11E1982A0F859600871E9F /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E1912A0F859600871E9F /* shapes.riv */; };
+		1A11E1992A0F859600871E9F /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E1922A0F859600871E9F /* button.riv */; };
+		1A11E19A2A0F859600871E9F /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11E1932A0F859600871E9F /* icons.riv */; };
+		1A20A2012A1209EE00F62789 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20A2002A1209EE00F62789 /* SignUpView.swift */; };
+		1A2D9B3F2A18711400F8576A /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D9B3E2A18711400F8576A /* Validations.swift */; };
+		1A59403F2A1425C300727E8B /* SesionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59403E2A1425C300727E8B /* SesionManager.swift */; };
+		1A5940412A1438B400727E8B /* ConfirmUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940402A1438B400727E8B /* ConfirmUserView.swift */; };
+		1A5940432A14A7B500727E8B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940422A14A7B500727E8B /* SplashScreenView.swift */; };
+		1A5940462A14AF7E00727E8B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940452A14AF7E00727E8B /* UserView.swift */; };
+		1A5940492A15C49600727E8B /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A5940482A15C49600727E8B /* PromiseKit */; };
+		1A5940512A16D6D400727E8B /* PopoverNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940502A16D6D400727E8B /* PopoverNotificationView.swift */; };
+		1A5940532A16D70D00727E8B /* PopoverNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940522A16D70D00727E8B /* PopoverNotificationManager.swift */; };
+		1A5940562A16FB2A00727E8B /* ToastNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5940552A16FB2A00727E8B /* ToastNotificationView.swift */; };
+		1ACBD3892A11684800C489D8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBD3882A11684800C489D8 /* TabBar.swift */; };
+		1AF330922A140E43001505AA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF330912A140E43001505AA /* OnboardingView.swift */; };
+		1AF330952A140E9C001505AA /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF330942A140E9C001505AA /* AWSCognitoAuthPlugin */; };
+		1AF330972A140E9C001505AA /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF330962A140E9C001505AA /* Amplify */; };
+		1AF59D132A13FD3700F49D0C /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF59D122A13FD3700F49D0C /* RiveRuntime */; };
+		81CF8B29DD2A6598D2BF5A14 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A81FA0A3A520812331DDDC8C /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A11E1742A0F7FD400871E9F /* Doggo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0F41C92A105D1500C3DF70 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		1A0F41CA2A105D1500C3DF70 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1A0F41CB2A105D1500C3DF70 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		1A0F41CF2A105D3200C3DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A0F41D02A10623700C3DF70 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		1A0F41D22A106D6E00C3DF70 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		1A0F41D42A10793400C3DF70 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1A0F41DA2A114E1600C3DF70 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1A11E1772A0F7FD400871E9F /* DoggoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoApp.swift; sourceTree = "<group>"; };
 		1A11E1792A0F7FD400871E9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A11E17B2A0F7FD700871E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A11E17E2A0F7FD700871E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A11E18D2A0F859600871E9F /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		1A11E18E2A0F859600871E9F /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		1A11E18F2A0F859600871E9F /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		1A11E1902A0F859600871E9F /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		1A11E1912A0F859600871E9F /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		1A11E1922A0F859600871E9F /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		1A11E1932A0F859600871E9F /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		1A20A2002A1209EE00F62789 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1A2D9B3E2A18711400F8576A /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		1A59403E2A1425C300727E8B /* SesionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SesionManager.swift; sourceTree = "<group>"; };
+		1A5940402A1438B400727E8B /* ConfirmUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmUserView.swift; sourceTree = "<group>"; };
+		1A5940422A14A7B500727E8B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		1A5940452A14AF7E00727E8B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		1A5940502A16D6D400727E8B /* PopoverNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverNotificationView.swift; sourceTree = "<group>"; };
+		1A5940522A16D70D00727E8B /* PopoverNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverNotificationManager.swift; sourceTree = "<group>"; };
+		1A5940552A16FB2A00727E8B /* ToastNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastNotificationView.swift; sourceTree = "<group>"; };
+		1ACBD3882A11684800C489D8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1AF3308F2A14078E001505AA /* Doggo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF330912A140E43001505AA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6A23077B49CF97199AF085CC /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		A81FA0A3A520812331DDDC8C /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,34 +85,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF330972A140E9C001505AA /* Amplify in Frameworks */,
+				1A5940492A15C49600727E8B /* PromiseKit in Frameworks */,
+				1AF59D132A13FD3700F49D0C /* RiveRuntime in Frameworks */,
+				1AF330952A140E9C001505AA /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0F41C82A105D1500C3DF70 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F41C92A105D1500C3DF70 /* Inter-Regular.ttf */,
+				1A0F41CA2A105D1500C3DF70 /* Poppins-Bold.ttf */,
+				1A0F41CB2A105D1500C3DF70 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1A11E16B2A0F7FD400871E9F = {
 			isa = PBXGroup;
 			children = (
 				1A11E1762A0F7FD400871E9F /* Doggo */,
-				1A11E1752A0F7FD400871E9F /* Products */,
+				EADF12AC1C0334CCE3603657 /* AmplifyConfig */,
+				1AF3308F2A14078E001505AA /* Doggo.app */,
 			);
-			sourceTree = "<group>";
-		};
-		1A11E1752A0F7FD400871E9F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1A11E1742A0F7FD400871E9F /* Doggo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1A11E1762A0F7FD400871E9F /* Doggo */ = {
 			isa = PBXGroup;
 			children = (
+				1A59404A2A16D13600727E8B /* Shared */,
+				1A319FC82A11DE7B00202E72 /* Auth */,
+				1A0F41CF2A105D3200C3DF70 /* Info.plist */,
 				1A11E1772A0F7FD400871E9F /* DoggoApp.swift */,
+				1A5940422A14A7B500727E8B /* SplashScreenView.swift */,
 				1A11E1792A0F7FD400871E9F /* ContentView.swift */,
+				1ACBD3882A11684800C489D8 /* TabBar.swift */,
+				1ACBD3862A11652300C489D8 /* Views */,
+				1ACBD3872A11653E00C489D8 /* Styles */,
 				1A11E17B2A0F7FD700871E9F /* Assets.xcassets */,
+				1A0F41C82A105D1500C3DF70 /* Fonts */,
+				1A11E18C2A0F859600871E9F /* RiveAssets */,
 				1A11E17D2A0F7FD700871E9F /* Preview Content */,
 			);
 			path = Doggo;
@@ -65,6 +140,94 @@
 				1A11E17E2A0F7FD700871E9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A11E18C2A0F859600871E9F /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				1A11E18D2A0F859600871E9F /* house.riv */,
+				1A11E18E2A0F859600871E9F /* confetti.riv */,
+				1A11E18F2A0F859600871E9F /* check.riv */,
+				1A11E1902A0F859600871E9F /* menu_button.riv */,
+				1A11E1912A0F859600871E9F /* shapes.riv */,
+				1A11E1922A0F859600871E9F /* button.riv */,
+				1A11E1932A0F859600871E9F /* icons.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		1A319FC82A11DE7B00202E72 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1A59403E2A1425C300727E8B /* SesionManager.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		1A5940442A14AF6C00727E8B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				1A5940452A14AF7E00727E8B /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		1A59404A2A16D13600727E8B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1A5940542A16FB0900727E8B /* ToastNotification */,
+				1A59404D2A16D19200727E8B /* Notifications */,
+				1A2D9B3E2A18711400F8576A /* Validations.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1A59404D2A16D19200727E8B /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1A5940502A16D6D400727E8B /* PopoverNotificationView.swift */,
+				1A5940522A16D70D00727E8B /* PopoverNotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1A5940542A16FB0900727E8B /* ToastNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1A5940552A16FB2A00727E8B /* ToastNotificationView.swift */,
+			);
+			path = ToastNotification;
+			sourceTree = "<group>";
+		};
+		1ACBD3862A11652300C489D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5940442A14AF6C00727E8B /* User */,
+				1A0F41D22A106D6E00C3DF70 /* SignInView.swift */,
+				1A20A2002A1209EE00F62789 /* SignUpView.swift */,
+				1AF330912A140E43001505AA /* OnboardingView.swift */,
+				1A5940402A1438B400727E8B /* ConfirmUserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ACBD3872A11653E00C489D8 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F41DA2A114E1600C3DF70 /* Extensions.swift */,
+				1A0F41D42A10793400C3DF70 /* CustomTextField.swift */,
+				1A0F41D02A10623700C3DF70 /* CustomFont.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EADF12AC1C0334CCE3603657 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6A23077B49CF97199AF085CC /* awsconfiguration.json */,
+				A81FA0A3A520812331DDDC8C /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +246,14 @@
 			dependencies = (
 			);
 			name = Doggo;
+			packageProductDependencies = (
+				1AF59D122A13FD3700F49D0C /* RiveRuntime */,
+				1AF330942A140E9C001505AA /* AWSCognitoAuthPlugin */,
+				1AF330962A140E9C001505AA /* Amplify */,
+				1A5940482A15C49600727E8B /* PromiseKit */,
+			);
 			productName = Doggo;
-			productReference = 1A11E1742A0F7FD400871E9F /* Doggo.app */;
+			productReference = 1AF3308F2A14078E001505AA /* Doggo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +280,12 @@
 				Base,
 			);
 			mainGroup = 1A11E16B2A0F7FD400871E9F;
-			productRefGroup = 1A11E1752A0F7FD400871E9F /* Products */;
+			packageReferences = (
+				1AF59D112A13FD3700F49D0C /* XCRemoteSwiftPackageReference "rive-ios" */,
+				1AF330932A140E9C001505AA /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				1A5940472A15C49600727E8B /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
+			productRefGroup = 1A11E16B2A0F7FD400871E9F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,8 +299,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0F41CE2A105D1500C3DF70 /* Inter-SemiBold.ttf in Resources */,
+				1A11E1982A0F859600871E9F /* shapes.riv in Resources */,
+				1A11E1962A0F859600871E9F /* check.riv in Resources */,
 				1A11E17F2A0F7FD700871E9F /* Preview Assets.xcassets in Resources */,
+				1A11E1972A0F859600871E9F /* menu_button.riv in Resources */,
+				1A11E1942A0F859600871E9F /* house.riv in Resources */,
+				1A11E1992A0F859600871E9F /* button.riv in Resources */,
+				1A0F41CC2A105D1500C3DF70 /* Inter-Regular.ttf in Resources */,
+				1A0F41CD2A105D1500C3DF70 /* Poppins-Bold.ttf in Resources */,
 				1A11E17C2A0F7FD700871E9F /* Assets.xcassets in Resources */,
+				1A11E1952A0F859600871E9F /* confetti.riv in Resources */,
+				1A11E19A2A0F859600871E9F /* icons.riv in Resources */,
+				138793439F7BB90420BC8D75 /* awsconfiguration.json in Resources */,
+				81CF8B29DD2A6598D2BF5A14 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +323,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0F41D12A10623700C3DF70 /* CustomFont.swift in Sources */,
+				1A0F41D52A10793500C3DF70 /* CustomTextField.swift in Sources */,
+				1A5940532A16D70D00727E8B /* PopoverNotificationManager.swift in Sources */,
+				1A5940562A16FB2A00727E8B /* ToastNotificationView.swift in Sources */,
+				1A5940412A1438B400727E8B /* ConfirmUserView.swift in Sources */,
+				1ACBD3892A11684800C489D8 /* TabBar.swift in Sources */,
+				1AF330922A140E43001505AA /* OnboardingView.swift in Sources */,
+				1A5940512A16D6D400727E8B /* PopoverNotificationView.swift in Sources */,
 				1A11E17A2A0F7FD400871E9F /* ContentView.swift in Sources */,
+				1A20A2012A1209EE00F62789 /* SignUpView.swift in Sources */,
+				1A59403F2A1425C300727E8B /* SesionManager.swift in Sources */,
 				1A11E1782A0F7FD400871E9F /* DoggoApp.swift in Sources */,
+				1A2D9B3F2A18711400F8576A /* Validations.swift in Sources */,
+				1A0F41D32A106D6E00C3DF70 /* SignInView.swift in Sources */,
+				1A5940462A14AF7E00727E8B /* UserView.swift in Sources */,
+				1A0F41DB2A114E1700C3DF70 /* Extensions.swift in Sources */,
+				1A5940432A14A7B500727E8B /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +471,13 @@
 				DEVELOPMENT_TEAM = PQC432ACK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doggo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +502,13 @@
 				DEVELOPMENT_TEAM = PQC432ACK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doggo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +544,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A5940472A15C49600727E8B /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		1AF330932A140E9C001505AA /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		1AF59D112A13FD3700F49D0C /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A5940482A15C49600727E8B /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A5940472A15C49600727E8B /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		1AF330942A140E9C001505AA /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AF330932A140E9C001505AA /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		1AF330962A140E9C001505AA /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AF330932A140E9C001505AA /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		1AF59D122A13FD3700F49D0C /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AF59D112A13FD3700F49D0C /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A11E16C2A0F7FD400871E9F /* Project object */;
 }

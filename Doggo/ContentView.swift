@@ -6,21 +6,38 @@
 //
 
 import SwiftUI
+import Amplify
 
 struct ContentView: View {
+    
+    let user: AuthUser
+    @AppStorage("selectedTab") var selectedTab: Tab = .chat
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            switch selectedTab {
+            case .chat:
+                Text("Chat")
+            case .search:
+                Text("Search")
+            case .timer:
+                Text("Timer")
+            case .bell:
+                Text("Bell")
+            case .user:
+                UserView(user: user)
+            }
+            TabBar()
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    private struct DummyUser: AuthUser {
+        let username: String = "hola"
+        let userId: String = "1"
+        let email: String = "hola@hola.com"
+    }
     static var previews: some View {
-        ContentView()
+        ContentView(user: DummyUser())
     }
 }
