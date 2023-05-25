@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-doggo-dev-34653-authRole",
-      "UnauthRoleArn": "arn:aws:iam::217858623926:role/amplify-doggo-dev-34653-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::217858623926:role/amplify-doggo-dev-34653-authRole",
+      "AuthRoleName": "amplify-doggo-dev-192021-authRole",
+      "UnauthRoleArn": "arn:aws:iam::217858623926:role/amplify-doggo-dev-192021-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::217858623926:role/amplify-doggo-dev-192021-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-doggo-dev-34653-deployment",
-      "UnauthRoleName": "amplify-doggo-dev-34653-unauthRole",
-      "StackName": "amplify-doggo-dev-34653",
-      "StackId": "arn:aws:cloudformation:us-east-1:217858623926:stack/amplify-doggo-dev-34653/49631fb0-f2ec-11ed-b652-1282f343deb1",
-      "AmplifyAppId": "d1zobqlqlx2tlv"
+      "DeploymentBucketName": "amplify-doggo-dev-192021-deployment",
+      "UnauthRoleName": "amplify-doggo-dev-192021-unauthRole",
+      "StackName": "amplify-doggo-dev-192021",
+      "StackId": "arn:aws:cloudformation:us-east-1:217858623926:stack/amplify-doggo-dev-192021/58102c40-fb4a-11ed-a30f-0a18c8383ba3",
+      "AmplifyAppId": "d38y1w0bym53hq"
     },
     "categories": {
       "auth": {
-        "doggoa72566b9": {}
+        "doggo95eb9d0a": {}
       }
     }
   }

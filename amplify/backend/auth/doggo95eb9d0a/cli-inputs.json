@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "doggoa72566b9_identitypool_a72566b9",
+    "identityPoolName": "doggo95eb9d0a_identitypool_95eb9d0a",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "doggoa72566b9",
-    "userPoolName": "doggoa72566b9_userpool_a72566b9",
+    "resourceNameTruncated": "doggo95eb9d0a",
+    "userPoolName": "doggo95eb9d0a_userpool_95eb9d0a",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,12 +31,17 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "doggoaa72566b9_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "doggo995eb9d0a_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "a72566b9",
-    "resourceName": "doggoa72566b9",
+    "sharedId": "95eb9d0a",
+    "resourceName": "doggo95eb9d0a",
     "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
+    "useDefault": "defaultSocial",
+    "hostedUI": true,
+    "hostedUIDomainName": "doggo95eb9d0a-95eb9d0a",
+    "authProvidersUserPool": [],
+    "hostedUIProviderMeta": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"doggoapp://\"],\"LogoutURLs\":[\"doggoapp://\"]}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
